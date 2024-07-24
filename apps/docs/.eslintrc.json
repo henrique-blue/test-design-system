@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "@blue/eslint-config/react",
+    "@blue/eslint-config/tailwind",
+    "plugin:storybook/recommended"
+  ],
+  "overrides": [
+    {
+      "files": ["stories/*.stories.{tsx,mdx}"],
+      "rules": {
+        "import/no-default-export": "off"
+      }
+    }
+  ]
+}
