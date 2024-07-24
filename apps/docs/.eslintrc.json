@@ -6,7 +6,7 @@
   ],
   "overrides": [
     {
-      "files": ["stories/*.stories.{tsx,mdx}"],
+      "files": ["src/stories/components/*.stories.{tsx,mdx}"],
       "rules": {
         "import/no-default-export": "off"
       }

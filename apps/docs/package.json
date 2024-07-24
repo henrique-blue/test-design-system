@@ -1,14 +1,13 @@
 {
-  "name": "docs",
-  "version": "0.0.0",
-  "type": "module",
+  "name": "@blue/docs",
   "private": true,
   "scripts": {
-    "dev": "storybook dev -p 6006",
-    "build": "storybook build --docs",
-    "preview-storybook": "serve storybook-static",
-    "clean": "rm -rf .turbo && rm -rf node_modules",
-    "lint": "eslint ./stories/*.stories.tsx --max-warnings 0"
+    "dev": "storybook dev -p 6006 --no-open",
+    "build": "storybook build -o dist",
+    "start": "serve dist",
+    "preview-storybook": "serve dist",
+    "clean": "rimraf .turbo dist node_modules",
+    "lint": "eslint src --fix --max-warnings 0"
   },
   "dependencies": {
     "@blue/ui": "workspace:*",
@@ -16,19 +15,27 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@blue/eslint-config": "workspace:*",
+    "@blue/styles": "workspace:*",
     "@blue/tsconfig": "workspace:*",
+    "@storybook/addon-a11y": "^7.6.17",
     "@storybook/addon-actions": "^7.6.17",
+    "@storybook/addon-docs": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
+    "@storybook/addon-themes": "^7.6.17",
+    "@storybook/addon-interactions": "^7.6.17",
+    "@storybook/blocks": "^7.6.17",
     "@storybook/react": "^7.6.17",
     "@storybook/react-vite": "^7.6.17",
     "@vitejs/plugin-react": "^4.2.1",
+    "@types/react": "^18.2.32",
+    "@types/react-dom": "^18.2.14",
     "eslint-plugin-storybook": "^0.6.15",
-    "eslint": "^8.57.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
     "serve": "^14.2.1",
     "storybook": "^7.6.17",
-    "typescript": "^5.3.3",
+    "tailwindcss": "^3.3.3",
     "vite": "^5.1.4"
   }
 }
