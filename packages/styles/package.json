@@ -39,5 +39,8 @@
   },
   "peerDependencies": {
     "tailwindcss": ">=3.0.0 || insiders"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
