@@ -1,0 +1,3 @@
+{
+  "extends": "@blue/tsconfig/base.json"
+}
