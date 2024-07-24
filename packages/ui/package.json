@@ -14,7 +14,11 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint . --max-warnings 0",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+    "clean": "rimraf .turbo node_modules dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "@radix-ui/react-slot": "^1.0.2"
   },
   "devDependencies": {
     "@blue/tsconfig": "workspace:*",
@@ -24,9 +28,6 @@
     "eslint": "^8.57.0",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "react": "^18.2.0"
   },
   "publishConfig": {
     "access": "public"
