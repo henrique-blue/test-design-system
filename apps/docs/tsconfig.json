@@ -1,5 +1,5 @@
 {
-  "extends": "@blue/tsconfig/react.json",
+  "extends": "@henrique-blue/tsconfig/react.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

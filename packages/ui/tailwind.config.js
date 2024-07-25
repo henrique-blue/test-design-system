@@ -1,3 +1,3 @@
-import { defineTailwindConfig } from "@blue/styles";
+import { defineTailwindConfig } from "@henrique-blue/styles";
 
 export default defineTailwindConfig({});

@@ -10,14 +10,14 @@
     "lint": "eslint src --fix --max-warnings 0"
   },
   "dependencies": {
-    "@blue/ui": "workspace:*",
+    "@henrique-blue/ui": "workspace:*",
     "lucide-react": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@blue/styles": "workspace:*",
-    "@blue/tsconfig": "workspace:*",
+    "@henrique-blue/styles": "workspace:*",
+    "@henrique-blue/tsconfig": "workspace:*",
     "@storybook/addon-a11y": "^7.6.17",
     "@storybook/addon-actions": "^7.6.17",
     "@storybook/addon-docs": "^7.6.17",

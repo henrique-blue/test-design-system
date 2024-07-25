@@ -3,7 +3,7 @@ import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
 
 export const defaultTailwindConfig = {
-  content: ["node_modules/@blue/ui/dist/**/*.js"],
+  content: ["node_modules/@henrique-blue/ui/dist/**/*.js"],
   darkMode: ["class"],
   theme: {
     container: {

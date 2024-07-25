@@ -1,4 +1,7 @@
 {
-  "extends": ["@blue/eslint-config/react", "@blue/eslint-config/tailwind"],
+  "extends": [
+    "@henrique-blue/eslint-config/react",
+    "@henrique-blue/eslint-config/tailwind"
+  ],
   "ignorePatterns": ["dist"]
 }

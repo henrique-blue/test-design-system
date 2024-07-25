@@ -1,4 +1,4 @@
-@import "../../node_modules/@blue/styles/src/theme.css" layer(theme);
+@import "../../node_modules/@henrique-blue/styles/src/theme.css" layer(theme);
 
 @tailwind base;
 @tailwind components;

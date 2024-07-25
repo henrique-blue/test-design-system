@@ -1,5 +1,5 @@
 {
-  "name": "@blue/eslint-config",
+  "name": "@henrique-blue/eslint-config",
   "version": "0.0.0",
   "private": false,
   "publishConfig": {
