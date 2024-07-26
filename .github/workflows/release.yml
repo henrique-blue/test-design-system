@@ -29,9 +29,6 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Generate build
-        run: pnpm build
-
       - name: pm2 save
         run: pm2 save
 
