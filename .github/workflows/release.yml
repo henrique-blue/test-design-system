@@ -21,7 +21,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: pnpm i
+        run: pnpm install
 
       - name: Generate build
         run: pnpm build
